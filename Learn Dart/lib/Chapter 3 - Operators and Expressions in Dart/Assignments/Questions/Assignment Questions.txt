@@ -1,0 +1,30 @@
+1.
+// Write a program that calculates the area and perimeter of a rectangle given its length and width. Use the appropriate arithmetic operator.
+2.
+// Write a program that compares two numbers and determines if they are equal, greater than, or less than each other. Print the comparison results.
+3.
+// Write a program that compares the lengths of two strings and determines if one is greater, less, or equal to the other. Display the comparison results.
+// Logical Operators
+4.
+// Write a program that checks whether a given number is divisible by both 2 and 3. Print the result.
+// Question 1 is asking you to create a program that verifies if a given number is evenly divisible by both 2 and 3.
+5.
+// Write a program that determines whether a person is eligible for voting based on their age and citizenship. Use logical operators to check the conditions.
+6.
+// Write a program that takes a number as input and increments it by 5 using the assignment operator. Display the result.
+7.
+// Implement a program that calculates the compound interest using the appropriate assignment operators.
+
+The statement "Implement a program that calculates the compound interest using the appropriate assignment operators" is asking you to create a program that computes compound interest based on the provided inputs and utilizing the appropriate assignment operators.
+
+To accomplish this, you would need to perform the following steps:
+
+1. Prompt the user to enter the principal amount, interest rate, and time period.
+  
+2. Read the user's inputs for the principal amount, interest rate, and time period, and store them in variables.
+  
+3. Calculate the compound interest using the given formula: compoundInterest = principalAmount * (1 + interestRate)^timePeriod - principalAmount.
+  
+4. Display the calculated compound interest to the user.
+  
+In the calculation step, you will utilize the appropriate assignment operators to perform the necessary calculations. For example, you might use the multiplication assignment operator (*=) to calculate principalAmount * (1 + interestRate)^timePeriod and then use the subtraction assignment operator (-=) to subtract principalAmount from the result to obtain the compound interest.

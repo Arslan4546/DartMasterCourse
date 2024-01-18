@@ -1,0 +1,108 @@
+1.
+Write a program (function) that takes a list and returns a new list 
+that contains all the elements of the first list minus all the duplicates.
+2.
+Write a program (using functions!) that asks the user for a long string containing 
+multiple words. Print back to the user the same string, except with the words in backwards 
+order.
+3.
+Create a program that asks the user to enter their name and their age. Print out a message
+that tells how many years they have to be 100 years old.
+4.
+Ask the user for a number. Depending on whether the number is even 
+or odd, print out an appropriate message to the user.
+5.
+Create a program that asks the user for a number and then prints out a list of 
+all the divisors of that number.
+6.
+Ask the user for a string and print out whether this string is a palindrome or not.
+7.
+Ask the user for a number and determine whether the number is prime or not.
+8.
+Write a Dart function to find the common elements between two lists
+9.
+Write a Dart function to find the sum of even numbers in a list.
+10.
+Implement a Dart program to count the occurrences of each element in a list.
+11.
+Create a Dart function that checks if a given word is an anagram of another word.
+12.
+Write a Dart program to reverse the order of words in a sentence.
+13.
+Implement a Dart function to find the smallest common multiple of two numbers.
+14.
+Create a Dart program that converts a temperature from Celsius to Fahrenheit.
+15.
+Write a Dart function to check if a given number is a Fibonacci number.
+16.
+Implement a Dart program to concatenate two lists without duplicates.
+17.
+Create a Dart function to check if a string contains only digits.
+18.
+Write a Dart program to generate a Fibonacci sequence up to a given limit.
+19.
+Implement a Dart function that rotates the elements of a list to the right by a given number of positions.
+20.
+Create a Dart program that finds the second-largest element in a list.
+21.
+Write a Dart function to find the GCD (Greatest Common Divisor) of two numbers.
+22.
+Implement a Dart program to find and print all prime numbers up to a given limit.
+23.
+Create a Dart function to calculate the area of a circle given its radius.
+24.
+Write a Dart program to sort a list of strings in alphabetical order.
+25.
+Implement a Dart function to check if a given year is a leap year using a more concise approach.
+26.
+Create a Dart program to find the union of two lists.
+27.
+Write a Dart function to generate a list of prime numbers up to a specified limit.
+28.
+Implement a Dart program to calculate the factorial of a number using an iterative approach.
+29.
+Create a Dart function to determine if a given string is a valid email address.
+30.
+Write a Dart program to find the area of a rectangle given its length and width.
+31.
+Implement a Dart function to find the median of a list of numbers.
+32.
+Create a Dart program that converts a binary number to its decimal equivalent.
+33.
+Write a Dart function to check if a list is sorted in ascending order.
+34.
+Implement a Dart program to find the LCM (Least Common Multiple) of two numbers.
+35.
+Create a Dart function that removes vowels from a given string.
+36.
+Write a Dart program to find the factorial of a number using an iterative approach.
+37.
+Implement a Dart function to calculate the perimeter of a rectangle.
+38.
+Create a Dart program to find the square of each number in a list.
+39.
+Write a Dart function to determine if a given string is a palindrome without using the reverse method.
+40.
+Implement a Dart program to generate a list of the first N Fibonacci numbers.
+50.
+Create a Dart function to find the length of the longest word in a sentence.
+51.
+Write a Dart program to find the sum of digits in a given number.
+52.
+Implement a Dart function to check if a given string is a valid URL.
+53.
+Create a Dart program that counts the number of vowels in a given string.
+54.
+Write a Dart function to calculate the average of numbers in a list.
+55.
+Implement a Dart program to find the common elements between three lists.
+56.
+Create a Dart function to check if a number is a perfect square.
+57.
+Write a Dart program to find the area of a triangle given its base and height.
+
+
+NOTE:
+Feel free to attempt these questions and use them as a way to deepen your understanding
+ of Dart programming. If you have any specific questions or need clarifications on any
+ topic, feel free to ask At(facebook.com\Arslan4546) or whats'app(+923468459907)[text only].
