@@ -53,4 +53,4 @@ Join me on this exciting journey of learning Dart and Flutter. Together, we'll u
 -In this course you have a lot of assignments & projects with solutions & without solutions to improve your programming skills but you have to do it yourself using your dart-course concepts. 
 
 
-## stay strong& be creative🌟
+## stay strong & be creative🌟
