@@ -12,7 +12,8 @@ void main(List<String> args) {
   List<String> fruits = ['Apple', 'Banana'];
   List<String> additionalFruits = ['Orange', 'Mango'];
 
-  fruits.addAll(additionalFruits);
+  fruits.addAll(
+      additionalFruits); // means you can add one completer list into another list
   print(fruits); // Output: ['Apple', 'Banana', 'Orange', 'Mango']
 
   // 3. insert() - Inserts an element at a specified index in the list.
@@ -134,6 +135,7 @@ void main(List<String> args) {
     [5, 6]
   ];
 
-  List<int> flattenedList = nestedLists.expand((list) => list).toList();
+  List<int> flattenedList = nestedLists.expand((element) => element).toList();
   print(flattenedList); // Output: [1, 2, 3, 4, 5, 6]
+  // the Expand() method is used to to splits the nested list into a single list
 }

@@ -27,10 +27,9 @@ void main(List<String> args) {
   // However, if you need more control over the iteration process, you can use the Iterator class directly. Here's an example:
 
   List<int> numberss = [1, 2, 3, 4, 5];
-  Iterator<int> iterator = numberss.iterator;
-
-  while (iterator.moveNext()) {
-    int number = iterator.current;
+  Iterator<int> it = numberss.iterator;
+  while (it.moveNext()) {
+    int number = it.current;
     print(number);
   }
 

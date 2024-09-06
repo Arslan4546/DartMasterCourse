@@ -9,6 +9,7 @@ void main(List<String> args) {
   List<dynamic> myList = List.filled(3, null);
   print(myList);
   print(myList.runtimeType);
+  // in this code 3 is length and null are the values in the filled list
 
   // let's take another example
 
@@ -18,17 +19,19 @@ void main(List<String> args) {
   fixedLengthList[0] = 87;
   fixedLengthList.setAll(1, [1, 2, 3]);
   print(fixedLengthList); // [87, 1, 2, 3, 0]
+  // the setAll() method will placed a new list from the index 1 onward
 
   // Fixed length list length can't be changed or increased
   fixedLengthList.length = 0; // Throws
   fixedLengthList.add(499); // Throws
+  // this means you cannot add more  items in the list if the list is fixed just like the fixedLengthList above
 
   // 2. Using the List.generate() constructor:
 
   List<dynamic> myFixedList = List.generate(3, (index) => null);
   print(myFixedList);
   print(myFixedList.runtimeType);
-
+  // the generate() method will genearate a list and assign this list to new list on the left side of the = operator
   /*
   
     3 represents the length of the list you want to create. In this case, the list will have three elements.
@@ -43,6 +46,7 @@ void main(List<String> args) {
 
   List<int> newList = List.generate(5, (index) => index * 2);
   print(newList);
+  // in this code 5 is the length of the list and items are the index*2 or you can add them according to you own requirement
 
   /*
 

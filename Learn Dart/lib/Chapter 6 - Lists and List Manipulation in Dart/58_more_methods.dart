@@ -48,6 +48,7 @@ void main(List<String> args) {
 
   List<int> skippedNumbers = numbers.skip(2).toList();
   print(skippedNumbers); // Output: [3, 4, 5]
+  // the 2 means it will skip first 2 indexes
 
   // 33. skipWhile() method:
   // The skipWhile() method is used to create a new list that excludes elements from an existing list until a condition is no longer satisfied.
@@ -65,12 +66,17 @@ void main(List<String> args) {
 
   List<int> takenNumbers = numbers.take(3).toList();
   print(takenNumbers); // Output: [1, 2, 3]
+  // 3 means it can take the first three elements in existing list and make a new list
 
   // 35. whereType() method:
   // The whereType() method is used to create a new list that includes only the elements of a specific type from an existing list.
 
   List<dynamic> values = [1, 'Two', 3, 'Four', 5];
-
+  print(values);
   numbers = values.whereType<int>().toList();
   print(numbers); // Output: [1, 3, 5]
+
+  // the whereType() method is used to filter a new list from the previous list  on the basis of types
+  // you can place any thing with where type it will filter the spacific type which you will place
+  // its upto you which data type you will placed
 }

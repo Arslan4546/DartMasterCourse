@@ -54,8 +54,10 @@ void main(List<String> args) {
   // Remove a range of items
   items.removeRange(0, 3);
   print(items);
+  // this means it can remove the elements in the list before the index 3 only
 
   // Remove element from the list on the basis of some condition
   items.removeWhere((element) => element % 2 == 1);
   print(items);
+  // we cannot store it into another list but perform RemoveWhereMethod() on list which we want to perform the operation because it can also store the list in the heap after modification in it
 }

@@ -25,7 +25,7 @@ void main(List<String> args) {
   print(counting);
   print(counting.runtimeType);
 
-  // Create String type List
+  // Create int type List
   List<int> numbersList = [];
   print(numbersList);
   print(numbersList.runtimeType);

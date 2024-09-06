@@ -66,14 +66,22 @@ void main(List<String> args) {
   var planets = <String>['Earth', 'Jupiter'];
   var updated = planets.followedBy(['Mars', 'Venus']);
   print(updated); // (Earth, Jupiter, Mars, Venus)
+  // the FollowedBy() method is used to merge one list into another list
 
   // 23. getRange method
 
   final colors = <String>['red', 'green', 'blue', 'orange', 'pink'];
-  final firstRange = colors.getRange(0, 3);
-  print(firstRange.join(', ')); // red, green, blue
+  final firstRange = colors.getRange(0, 3); // get range from 0 to 2 index
+  print(firstRange);
+  print(firstRange.join(' + ')); // Basically it can concatinate the list items
+  print(firstRange);
 
-  final secondRange = colors.getRange(2, 5);
+  // output:
+  // (red, green, blue)
+  //   red + green + blue
+  //  (red, green, blue)
+
+  final secondRange = colors.getRange(2, 5); // means from index 2 to 4
   print(secondRange.join(', ')); // blue, orange, pink
 
   // 24. indexWhere method
@@ -89,6 +97,7 @@ void main(List<String> args) {
   final notes = <String>['do', 're', 'mi', 're'];
   final first = notes.indexWhere((note) => note.startsWith('r')); // 1
   final second = notes.indexWhere((note) => note.startsWith('r'), 2); // 3
+  // it gives the index becasue we implemements both startsWith() method and indexwhere it means what is the index  of that word that is starts With r or d
 
   print(first);
   print(second);
@@ -115,6 +124,8 @@ void main(List<String> args) {
   numbers = <int>[1, 2, 3, 5, 6, 7];
   var resultX = numbers.lastWhere((element) => element < 5); // 3
   print(resultX);
+// if you put the condition that will not satisfy then it will gives the unhandled exception but if you are using orElse then it will not giving any  exception
+// just like element < 5 are not available in the list
 
   resultX = numbers.lastWhere((element) => element > 5); // 7
   print(resultX);
